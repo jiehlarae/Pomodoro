@@ -46,7 +46,7 @@ function startTimer(duration, isPomodoro) {
             }
             showStartBtn();
         }
-    }, 1000); // Update every second
+    }, 1000);
     hideStartBtn();
 }
 ```

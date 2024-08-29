@@ -90,7 +90,7 @@ function startTimer(duration, isPomodoro) {
             }
             showStartBtn();
         }
-    }, 1); // Update every second
+    }, 1000);
     hideStartBtn();
 }
 
